@@ -3,10 +3,12 @@
 # Hi Mickey, this is your first introduction to Python
 # Follow the instructions below 
 
-class HelloWorld():
+class HelloWorld:
 	'''
 	You will want to replace `pass` in each method (notated by `def blahblah(self):`)
-	with the appropriate "return" statement
+	with the appropriate "return" statement. Example: to make `hello` method return correctly,
+	type in the statement `return "Hello World!"` where the `pass` currently is (that includes
+	indentations).
 	'''
 	def __init__(self):
 		print "You've created a HelloWorld object! Hooray!"
